@@ -1,0 +1,12 @@
+body {
+  font-family: 'Arial';
+  margin: 20px;
+  color: #333333;
+}
+h1 {
+    color: #333333;
+    text-align: center;
+}
+p {
+    line-height: 1.5;
+}
