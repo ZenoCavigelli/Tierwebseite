@@ -1,12 +1,56 @@
 body {
   font-family: 'Arial';
-  margin: 20px;
+  margin: 0px;
   color: #333333;
 }
 h1 {
     color: #333333;
     text-align: center;
 }
+h3{
+    text-align: center;
+}
 p {
     line-height: 1.5;
 }
+.BoxHomePage {
+    width: 600px;
+    height: 152px;
+   margin: 0 auto; 
+  padding: 20px;
+  text-align: center;
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+}
+.container {
+    align-items: center;        
+    gap: 20px;                  
+    display: flex;              
+  padding: 20px;
+  border: 1px solid #333333;
+}
+
+.text-box {
+    border-radius: 4px;
+  background-color: lightblue;
+  padding: 20px;
+  flex: 1;
+    border: 1px solid #333333;                   
+}
+
+.picture {
+  max-width: 100%;              
+  height: auto;
+  border: 2px solid #ccc;
+}
+.horizontal-list {
+      list-style-type: disc;     
+      display: flex;             
+      gap: 2rem;                 
+      padding-left: 1rem;  
+      justify-content: space-evenly; 
+      align-items: center;      
+    }

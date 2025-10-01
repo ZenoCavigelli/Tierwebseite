@@ -7,18 +7,43 @@
     <link rel="stylesheet" href="css\Style.css">
 </head>
 <body>
-    <nav class="navbar">
-        <ul>
-            <li><a href="http://127.0.0.1:5500/pages/Arachniden.html">Arachniden</a></li>
-            <li><a href="http://127.0.0.1:5500/pages/Reptilien.html">Reptilien</a></li>
-            <li><a href="http://127.0.0.1:5500/pages/Insekten.html">Insekten</a></li>
-            <li><a href="http://127.0.0.1:5500/pages/Eidechsen.html">Eidechsen</a></li>            
+    <nav style="padding: 0 50px;" class="navbar">
+        <ul style="display: flex; list-style: none; margin: 0px; content: center;">
+            <li><a href="pages/Arachniden.html">Arachniden  /  </a></li>
+            <li><a href="pages/Reptilien.html">Reptilien  /  </a></li>
+            <li><a href="pages/Insekten.html">Insekten  /  </a></li>
+            <li><a href="pages/Eidechsen.html">Eidechsen  /  </a></li>  
+            <li><a href="http://127.0.0.1:5500/pages/Bildgalerie.html">Bildgalerie</a></li>          
         </ul>
     </nav>
+
+   <img src="Assets/Krokodil.jpg" alt="">
     <h1>Tierwebseite von Linus Cavigelli</h1>
-    <IMG></IMG>
-    <H6>Tiere und einige Informationen über sie.</H6>
-    <p>In dieser Webseite werden einige Tiere von verschiedenen Arten vohrgestellt. <br>
-    Da ich nicht alle Tiere auflisten kann, aber dennoch eine möglichst grosse Bandbreite an Tieren Presentieren möchte, habe ich mir einfach einige èbergattungen herausgesucht und zu jeder Drei Tiere.</p>
+    <H3>Tiere und einige Informationen über sie. </H3>
+
+    <div class="BoxHomePage">
+        <p>In dieser Webseite werden einige Tiere von verschiedenen Arten vohrgestellt. <br>
+           Da ich nicht alle Tiere auflisten kann, aber dennoch eine möglichst grosse Bandbreite an Tieren Presentieren möchte,<br>
+           habe ich mir einfach einige Überarten herausgesucht und zu jeder Drei Tiere.
+        </p>
+        <p>Auf den Folgenden Fier Seiten werden drei Tiere der folgenden Tierarten aufgelistet.</p>
+        <ul class="horizontal-list">
+            <li>Reptilien</li>
+            <ul>
+                <li>Krokodil</li>
+                <li>Aligator</li>
+                <li>Boa Konstiktor</li>
+            </ul>
+            <li>Arachniden</li>
+            <li>Insekten</li>
+            <li>Eidechsen</li>
+        </ul>
+        <a href="https://www.google.com/maps/search/Zo+zurich/@47.3862169,8.576357,16.75z?entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D" style = "text-align: center; font-family: cursive;">Zoo Zürich</a>
+        <p>/</p>
+        <a href="mailto:beispiel@email.de">E-Mail schreiben</a>
+    </div>
 </body>
+<footer>
+    <p style = "font-size: 9px; text-align: center; padding: 1rem;">Ich habe die Texte über die Tiere teilweise mic ChatGPT machen lassen</p>
+</footer>
 </html>
