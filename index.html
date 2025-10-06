@@ -8,7 +8,7 @@
 </head>
 <body>
     <nav style="padding: 0 50px;" class="navbar">
-        <ul style="display: flex; list-style: none; margin: 0px; content: center;">
+        <ul class="navbar ul" style = "align-content: center;">
             <li><a href="pages/Arachniden.html">Arachniden  /  </a></li>
             <li><a href="pages/Reptilien.html">Reptilien  /  </a></li>
             <li><a href="pages/Insekten.html">Insekten  /  </a></li>
@@ -17,30 +17,86 @@
         </ul>
     </nav>
 
-   <img src="Assets/Krokodil.jpg" alt="">
-    <h1>Tierwebseite von Linus Cavigelli</h1>
-    <H3>Tiere und einige Informationen über sie. </H3>
+   <img src="Assets/Krokodil.jpg" alt="" class = "container img">
+    <h1 style = "text-align: center;">Tierwebseite von Linus Cavigelli</h1>
+    <H3 style = "text-align: center;">Tiere und einige Informationen über sie. </H3>
 
-    <div class="BoxHomePage">
+    <div class="container">
         <p>In dieser Webseite werden einige Tiere von verschiedenen Arten vohrgestellt. <br>
            Da ich nicht alle Tiere auflisten kann, aber dennoch eine möglichst grosse Bandbreite an Tieren Presentieren möchte,<br>
-           habe ich mir einfach einige Überarten herausgesucht und zu jeder Drei Tiere.
+            habe ich mir einfach einige Überarten herausgesucht und zu jeder Drei Tiere.
         </p>
         <p>Auf den Folgenden Fier Seiten werden drei Tiere der folgenden Tierarten aufgelistet.</p>
-        <ul class="horizontal-list">
-            <li>Reptilien</li>
+        <ul class="horizontalList">
+            <details>
+            <summary>Reptilien</summary>
             <ul>
                 <li>Krokodil</li>
                 <li>Aligator</li>
-                <li>Boa Konstiktor</li>
+                <li>Boa Konstriktor</li>
             </ul>
-            <li>Arachniden</li>
-            <li>Insekten</li>
-            <li>Eidechsen</li>
+            </details>
+            <details>
+            <summary>Arachniden</summary>
+            <ul>
+                <li>Wolfsspinne</li>
+                <li>Nosferatu-Spinne</li>
+                <li>Huntsman-Spinne</li>
+            </ul>
+            </details>
+            <details>
+            <summary>Insekten</summary>
+            <ul>
+                <li>Mücke</li>
+                <li>Fliege</li>
+                <li>Gottesanbeterin</li>
+            </ul>
+            </details>
+            <details>
+            <summary>Eidechsen</summary>
+            <ul>
+                <li>Chameleon</li>
+                <li>Bartagame</li>
+                <li>Zauneidechse</li>
+            </ul>
+            </details>
+            <p>/</p>
+            <table cellpadding="10" cellspacing="0" style="border-collapse: collapse; text-align: center;">
+  <thead>
+    <tr>
+      <th>Tierart</th>
+      <th>Beispiel(e)</th>
+      <th>Merkmale</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Arachniden</td>
+      <td>Wolfsspinne, Nosferatu-Spinne</td>
+      <td>8 Beine, keine Flügel, meist giftig</td>
+    </tr>
+    <tr>
+      <td>Insekten</td>
+      <td>Mücke, Gottesanbeterin</td>
+      <td>6 Beine, oft Flügel, Antennen</td>
+    </tr>
+    <tr>
+      <td>Reptilien</td>
+      <td>Krokodil, Boa</td>
+      <td>Schuppenhaut, wechselwarm, Eierlegend</td>
+    </tr>
+    <tr>
+      <td>Eidechsen</td>
+      <td>Bartagame, Zauneidechse</td>
+      <td>Gehören zu Reptilien, bewegliche Augen, Schwanz kann abgeworfen werden</td>
+    </tr>
+  </tbody>
+</table>
         </ul>
-        <a href="https://www.google.com/maps/search/Zo+zurich/@47.3862169,8.576357,16.75z?entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D" style = "text-align: center; font-family: cursive;">Zoo Zürich</a>
-        <p>/</p>
-        <a href="mailto:beispiel@email.de">E-Mail schreiben</a>
+        <div class="linkbox">
+  <a href="https://www.google.com/maps/...">Zoo Zürich</a>
+  <a href="mailto:Linus.Cavigelli@gmail.com">E-Mail schreiben</a>
+</div>
     </div>
 </body>
 <footer>

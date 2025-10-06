@@ -1,56 +1,102 @@
-body {
-  font-family: 'Arial';
-  margin: 0px;
-  color: #333333;
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
 }
-h1 {
-    color: #333333;
-    text-align: center;
+
+nav.navbar {
+    background-color: #dedede;
+    border-bottom: 1px solid #ccc;
+    padding: 1rem 2rem;
+    position: center;
+    top: 0;
+    z-index: 10;
+    align-content: center;
 }
-h3{
-    text-align: center;
-}
-p {
-    line-height: 1.5;
-}
-.BoxHomePage {
-    width: 600px;
-    height: 152px;
-   margin: 0 auto; 
-  padding: 20px;
-  text-align: center;
-}
-.navbar{
+
+nav.navbar ul {
     display: flex;
-    justify-content: space-evenly; 
-    align-items: center;
+    list-style: none;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
+
+nav.navbar a {
+    text-decoration: none;
+    color: #007b5e;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    text-align: center;
+}
+
+nav.navbar a:hover {
+    color: #007b5e;
+}
+
 .container {
-    align-items: center;        
-    gap: 20px;                  
-    display: flex;              
-  padding: 20px;
-  border: 1px solid #333333;
+    max-width: 960px;
+    background-color: #fff;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+}
+
+.container img {
+    flex: 1 1 40%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
 .text-box {
-    border-radius: 4px;
-  background-color: lightblue;
-  padding: 20px;
-  flex: 1;
-    border: 1px solid #333333;                   
+    flex: 1 1 55%;
 }
 
-.picture {
-  max-width: 100%;              
-  height: auto;
-  border: 2px solid #ccc;
+.text-box h3 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+    color: #007b5e;
 }
-.horizontal-list {
-      list-style-type: disc;     
-      display: flex;             
-      gap: 2rem;                 
-      padding-left: 1rem;  
-      justify-content: space-evenly; 
-      align-items: center;      
+
+.text-box p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #444;
+}
+
+@media (max-width: 768px) {
+    .container {
+        display: flex;
+        justify-content: center;     
+        gap: 20px;                  
+       flex-wrap: wrap;             
+       margin-bottom: 30px;         
+}
     }
+
+    .text-box, .container img {
+        flex: 1 1 100%;
+    }
+
+.linkbox {
+  position: absolute;
+  bottom: 10px;             
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 20px;                
+  justify-content: center;
+  position: relative;       
+  min-height: 12px;        
+  padding-bottom: 50px;
+}
